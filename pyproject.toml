@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "political-ai-bias"
+version = "0.1.0"
+description = "AI Model Evaluation and Bias Analysis Tool"
+authors = ["Jack Payne <jacktpayne51@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+google-auth = "*"
+openai = "*"
+typing-extensions = "*"
+aisuite = "*"
+numpy = "*"
+matplotlib = "*"
+seaborn = "*"
+scikit-learn = "*"
+python-dotenv = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

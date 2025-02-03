@@ -1,0 +1,11 @@
+pandas
+google-auth
+openai
+typing-extensions
+pytest
+numpy
+matplotlib
+seaborn
+scikit-learn
+aisuite
+python-dotenv 
