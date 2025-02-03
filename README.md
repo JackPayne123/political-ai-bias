@@ -1,9 +1,14 @@
 # Political Bias Evaluator for Language Models
 
 ## Project Overview
-This project builds upon previous research conducted in early 2024 that evaluated political bias across major language models. The initial study (AISES AI BIAS v3) demonstrated significant variations in political bias across different LLMs and highlighted the importance of systematic evaluation methods.
+
+This project aims to demonstrate the political bias in SOTA LLMs.
+
+The goal is not only look at bias present in the models themselves, but specifically highlighting how the helpfulness of models increase their bias in a direction influenced by question framing and identifying the most at risk topics. Question framing introduces an example of how LLMs would be used by the public, more precisely capturing the potential harm of bias outputs.
 
 ## Previous Results Summary
+A previous version of this project revealed some insights, avaliable in the PDF.
+
 The AISES AI BIAS v3 study revealed:
 - Varying degrees of political bias across different LLM architectures
 - Systematic differences in how models handle politically sensitive topics
