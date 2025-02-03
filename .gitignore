@@ -39,7 +39,6 @@ ENV/
 backups/
 model_results/
 *.csv
-*.pdf
 
 # Testing
 .pytest_cache/
